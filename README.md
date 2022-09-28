@@ -25,9 +25,9 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./images/Screenshot_desktop_%202022-09-28%20at%2011-23-53%20Frontend%20Mentor%20Social%20proof%20section.png)
 
-![](./screenshot.jpg)
+![](./images/Screenshot_mobile_2022-09-28%20at%2011-28-35%20Frontend%20Mentor%20Social%20proof%20section.png)
 
 
 ### Links
