@@ -1,0 +1,185 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 15px;
+}
+.container {
+    width: 100%;
+    padding: 4rem 1.5rem;
+    box-sizing: border-box;
+}
+.infoContainer {
+    width: 100%;
+    box-sizing: border-box;
+}
+.info > h2 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 2.6rem;
+    margin-bottom: 2rem;
+    color: hsl(300, 43%, 22%);
+}
+.ratingSection {
+    background-color: hsl(300, 24%, 96%);
+    text-align: center;
+    padding: 1rem;
+    margin-bottom: 4rem;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+.starRatings{
+    margin-bottom: 0.8rem;
+}
+.starRatings > img {
+    margin-right: 0.3rem;
+}
+.ratingSection > p {
+     color: hsl(300, 43%, 22%);
+     font-size: 1.2rem;
+     font-weight: 700;
+}
+.info > p {
+    font-size: 17.9px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 1.5;
+    color: hsl(303, 10%, 53%);
+    margin-bottom: 2.5rem;
+}
+.testmonial p {
+    color: hsl(0, 0%, 100%);
+    font-weight: 400;
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+.testmonialCard{
+    background-color: hsl(300, 43%, 22%);
+    width: 100%;
+    border-radius: 15px;
+    padding: 2rem;
+    margin-bottom: 1rem;
+}
+.testmonialCard2{
+    background-color: hsl(300, 43%, 22%);
+    width: 100%;
+    border-radius: 15px;
+    padding: 2rem;
+    margin-bottom: 1rem;
+}
+.testmonialCard3{
+    background-color: hsl(300, 43%, 22%);
+    width: 100%;
+    border-radius: 15px;
+    padding: 2rem;
+    margin-bottom: 1rem;
+}
+.profile {
+    display: flex;
+    margin-bottom: 1rem;
+}
+.profileImage{
+    display: inline-block;
+}
+.profileImage img {
+    margin-right: 1.5rem;
+    border-radius: 50%;
+    width: 2.5rem;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.profileName {
+    color: hsl(0, 0%, 100%);
+    display: inline-block;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.profileName h3 {
+    line-height: 1.5;
+    margin: 0;
+}
+.profileName h4 {
+    color: hsl(333, 80%, 67%);
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+@media (min-width: 1440px) {
+    .container {
+        padding: 6rem 8rem;
+    }
+    .infoContainer{
+        display: flex;
+    }
+    .ratingContainer {
+        width: 50%;
+    }
+    .info {
+        width: 50%;
+        padding-right: 10rem;
+    }
+    .info > h2 {
+        text-align: left;
+        padding-right: 9rem;
+        margin-bottom: 1rem;
+    }
+    .info > p {
+        text-align: left;
+    }
+    .ratingSection {
+        display: flex;
+        padding: 1rem 2rem;
+        margin-bottom: 1.5rem;
+    }
+    .starRatings {
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-right: 0.4rem;
+    }
+    .ratingSection p{
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    #section1{
+        margin-right: 8rem;
+    }
+    #section2 {
+        margin-right: 4rem;
+        margin-left: 4rem;
+    }
+    #section3{
+        margin-left: 8rem;
+    }
+    .testmonial {
+        display: flex;
+    }
+    .testmonial  p {
+        font-size: 1.15rem;
+    }
+    .testmonialCard{
+        width: 33%; 
+        margin-right: 2rem;
+        margin-bottom: 6rem;
+    }
+    .testmonialCard2 {
+        width: 33%;
+        margin-right: 2rem;
+        margin-top: 1.5rem;
+        margin-bottom: 4rem;
+    }
+    .testmonialCard3 {
+        width: 33%;
+        margin-top: 3rem;
+        margin-bottom: 2.5rem;
+    }
+    .attribution{
+        font-size: 20px;
+    }
+}
