@@ -6,6 +6,8 @@
 body {
     font-family: 'League Spartan', sans-serif;
     font-size: 15px;
+    background-image: url(/images/bg-pattern-top-mobile.svg);
+    background-repeat: no-repeat;
 }
 .container {
     width: 100%;
@@ -111,7 +113,17 @@ body {
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+.backgroundImage {
+    position: absolute;
+    bottom: 0;
+}
+.backgroundImage #desktop {
+    display: none;
+}
 @media (min-width: 1440px) {
+    body {
+        background-image: url(/images/bg-pattern-top-desktop.svg);
+    }
     .container {
         padding: 6rem 8rem;
     }
@@ -181,5 +193,11 @@ body {
     }
     .attribution{
         font-size: 20px;
+    }
+    .backgroundImage #mobile {
+        display: none;
+    }
+    .backgroundImage #desktop {
+        display: block;
     }
 }
