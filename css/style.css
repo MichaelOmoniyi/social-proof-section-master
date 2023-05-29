@@ -121,7 +121,7 @@ body {
 .backgroundImage #desktop {
     display: none;
 }
-@media (min-width: 1440px) {
+@media (min-width: 1094px) {
     body {
         background-image: url(/images/bg-pattern-top-desktop.svg);
     }
